@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "KarmaFuture";
+  src: url(/font/KarmaFuture.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SommoFont";
+  src: url(/font/VCR_OSD_MONO_1.001.ttf) format("truetype");
+}
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +25,7 @@ header {
   justify-content: space-between;
   position: sticky;
   top: 0;
+  z-index: 99;
 }
 #titlediv {
   display: flex;
@@ -28,6 +37,7 @@ header {
 header div h1 {
   display: inline;
   color: white;
+  font-family: KarmaFuture;
 }
 #navlinksdiv {
   display: inline-flex;
@@ -38,6 +48,7 @@ header div h1 {
   margin: 2.1rem;
   margin-top: 2rem;
   font-size: 1.5rem;
+  font-family: SommoFont;
 }
 #navlinksdiv ul li a {
   text-decoration: none;
@@ -55,4 +66,36 @@ p {
 }
 .underline {
   text-decoration: underline !important;
+}
+
+main h1 {
+  color: white;
+  font-family: SommoFont;
+  display: inline-block;
+  margin: 20px;
+}
+
+#textdiv div {
+  display: inline-block;
+  background-color: #0d0d1b;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#textdiv p {
+  font-family: SommoFont;
+  font-weight: 100;
+  margin: 45px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#textdiv p a {
+  color: aqua;
+}
+
+img {
+  float: right;
+  height: 600px;
+  margin: 40px;
 }
