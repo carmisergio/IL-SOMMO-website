@@ -68,6 +68,11 @@ p {
   text-decoration: underline !important;
 }
 
+main {
+  margin: 30px;
+  padding-bottom: 20px;
+}
+
 main h1 {
   color: white;
   font-family: SommoFont;
@@ -99,3 +104,101 @@ img {
   height: 600px;
   margin: 40px;
 }
+
+#potienzaimg {
+  float: right;
+  height: 250px;
+  margin: 0 0 40px 40px;
+}
+
+#potienzatitle {
+  margin-left: 0 !important;
+}
+
+footer {
+  background-color: #32324e;
+  height: 100px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+footer p {
+  padding-top: 45px;
+  font-family: SommoFont;
+  font-size: 15px;
+  display: inline-block;
+}
+
+footer img {
+  float: none;
+  height: 25px;
+  margin: 0;
+  bottom: 0px;
+}
+
+#shoppotienzalink {
+  display: block !important;
+  margin: 40px 30px 40px 40px !important;
+  text-align: center;
+  position: relative;
+}
+
+#shoppotienzalink {
+  background-color: #c10000 !important;
+  transition: all 0.2s ease;
+}
+#shoppotienzalink:hover {
+  background-color: #4e0000 !important;
+  transition: all 0.2s ease;
+}
+
+#shoppotienzalink h2 {
+  color: white;
+  font-family: SommoFont;
+  display: inline-block !important;
+  margin: 20px;
+}
+
+#contattilist {
+  margin-left: 40px;
+}
+
+#contattilist li p {
+  margin: 0 !important;
+  display: inline-block;
+}
+
+#contattilist li::before {
+  content: "\2022" !important; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red !important; /* Change the color */
+  font-size: 50;
+  font-weight: bold !important; /* If you want it to be bold */
+  display: inline-block !important; /* Needed to add space between the bullet and the text */
+  width: 1em !important; /* Also needed for space (tweak if needed) */
+  margin-left: 0 !important; /* Also needed for space (tweak if needed) */
+  margin-right: 10px;
+  font-family: SommoFont;
+}
+
+.card {
+  margin: 40px !important;
+  display: block !important;
+  width: auto !important;
+}
+.card img {
+  height: 250px;
+  width: unset;
+  margin: 20px;
+}
+
+/* #shoppotienzalink a {
+  font-family: SommoFont;
+  padding: 20px;
+  font-size: ;
+} */
+/* main {
+  max-width: 80rem;
+  margin: auto;
+} */
