@@ -172,7 +172,7 @@ footer img {
 
 #contattilist li::before {
   content: "\2022" !important; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: red !important; /* Change the color */
+  color: #c10000 !important; /* Change the color */
   font-size: 50;
   font-weight: bold !important; /* If you want it to be bold */
   display: inline-block !important; /* Needed to add space between the bullet and the text */
@@ -185,12 +185,56 @@ footer img {
 .card {
   margin: 40px !important;
   display: block !important;
-  width: auto !important;
+  height: fit-content;
+  overflow: hidden;
 }
 .card img {
-  height: 250px;
+  height: 200px;
   width: unset;
-  margin: 20px;
+  margin: 60px 40px 40px 40px;
+}
+
+.card h1 {
+  margin: 40px 20px 40px 40px !important;
+}
+
+.card p {
+  margin: 0px 0px 20px 40px !important;
+}
+
+.card img {
+  position: inherit !important;
+}
+
+.shopimg1 {
+  height: 250px !important;
+  margin: 30px 40px 40px 40px !important;
+}
+
+.shopbuttondiv {
+  background-color: #c10000 !important;
+  height: fit-content;
+  width: fit-content;
+  font-family: SommoFont;
+  font-size: 16px;
+  margin-top: 15px !important;
+  padding: 10px;
+}
+
+.shopbuttondiv:hover {
+  background-color: #4e0000 !important;
+  transition: all 0.2s ease;
+}
+
+.shopbuttondiv {
+  background-color: #c10000 !important;
+  transition: all 0.2s ease;
+}
+
+.card a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 /* #shoppotienzalink a {
