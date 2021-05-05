@@ -1,68 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    
+  <head>
+    <!-- Collega il css -->
+    <link rel="stylesheet" href="../styles.css" />
+    <!-- Iposta l'icona della pagina -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <!-- Dai un titolo alla pagina -->
     <title>La Potienza™ - IL SOMMO</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- La barra in alto al sito è contenuta in un tag header -->
     <header id="navbar">
-        <div id="titlediv">
-          <h1>IL SOMMO</h1>
+      <!-- L'header è a sua volta divisio in due div: una per il logo a sinistra e una per i link a destra -->
+      <div id="titlediv">
+        <h1>IL SOMMO</h1>
+      </div>
+      <div id="navlinksdiv">
+        <!-- Per i link di navigazione usiamo una ul (unordered list) che poi rendiamo orizzontale nel css -->
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../potienza/index.html" class="underline">Potienza™</a></li>
+          <li><a href="../shop/index.html">Shop</a></li>
+          <li><a href="../contatta/index.html">Contatta</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Parte principale della pagina -->
+    <main>
+      <!-- Tutto il testo presente nella pagina è contenuto in una div -->
+      <div id="textdiv">
+        <!-- Ogni titolo è racchiuso da una div di cui abbiamo modificato il colore di sfondo dal css. Questo serve a fare il rettangolo intorno. -->
+        <div>
+          <h1>CHE COS’è LA POTIENZA?</h1> 
         </div>
-        <div id="navlinksdiv">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/potienza/" class="underline">Potienza™</a></li>
-            <li><a href="/shop/">Shop</a></li>
-            <li><a href="/contatta/">Contatta</a></li>
-          </ul>
+        <!-- Utilizziamo il tag b per rendere IL SOMMO in grassetto, e un a per i link alla Potienza -->
+        <p>
+          La Potienza è una forza che risiede in ogni essere esistente nell’universo ma non tutti l’hanno risvegliata…
+          Uno dei primi esseri ad essere creato <b>DAL SOMMO</b> è l’Australopiteco!
+          L’Australopiteco è un essere ricolmo di Potienza (NON COME <b>IL SOMMO</b> OVVIAMENTE) ma la usa per spacciare biscotti <b>DEL SOMMO</b> a chi crede in lui. 
+        </p>
+        <div>
+          <h1>EFFETTI DELLA POTIENZA</h1> 
         </div>
-      </header>
-       <!-- Main page -->
-      <main>
-        <div id="textdiv">
-          <p>
-		  <div>
-      <h1>CHE COS’è LA POTIENZA?</h1> 
-	  </div>
-	  <p>
-La Potienza è una forza che risiede in ogni essere esistente nell’universo ma non tutti l’hanno risvegliata…
-Uno dei primi esseri ad essere creato <b>DAL SOMMO</b> è l’Australopiteco!
-L’Australopiteco è un essere ricolmo di Potienza (NON COME <b>IL SOMMO</b> OVVIAMENTE) ma la usa per spacciare biscotti <b>DEL SOMMO</b> a chi crede in lui. 
-</p>
-<div>
-  <h1>EFFETTI DELLA POTIENZA</h1> 
-</div>
-<p>
-  <img id="potienzaimg" src="/img/colposupremodellapotienza.jpeg">
-La Potienza è raffigurata nei ritratti <b>DEL SOMMO</b> come una luce accecante che procura gioia,conoscenza e forza. 
-Chi non ha ancora risvegliato la Potienza è un essere inferiore a tutti gli altri (ovviamente per inferiore s'intende che è stupido come un sasso) 
-Chi rinnega la Potienza come detto in precedenza verrà fulminato ma non da un fulmine bensì dal COLPO SUPREMO DELLA POTIENZA!
-Ovviamente questo solo in casi estremi, di solito chi solo pensa di rinnegare la Potienza viene rapito dall'Australopiteco e viene rinchiuso nella cantina speciale dell'Australopiteco.
-</p>
-<br>
-<div id="shoppotienzalink"><a href="/shop/"><h2>VISITA LO SHOP PER ACQUISTARE LA TUA PERSONALE DOSE DI POTIENZA!</h2></div></a></div>
-</div>
-      </main>
-
-    <!-- Footer -->
+        <p>
+          <!-- Abbaimo messo questa immagine all'interno del p per farla allineare con il testo -->
+          <img id="potienzaimg" src="../img/colposupremodellapotienza.jpeg" alt="Il colpo supremo della potienza">
+        La Potienza è raffigurata nei ritratti <b>DEL SOMMO</b> come una luce accecante che procura gioia,conoscenza e forza. 
+        Chi non ha ancora risvegliato la Potienza è un essere inferiore a tutti gli altri (ovviamente per inferiore s'intende che è stupido come un sasso) 
+        Chi rinnega la Potienza come detto in precedenza verrà fulminato ma non da un fulmine bensì dal COLPO SUPREMO DELLA POTIENZA!
+        Ovviamente questo solo in casi estremi, di solito chi solo pensa di rinnegare la Potienza viene rapito dall'Australopiteco e viene rinchiuso nella cantina speciale dell'Australopiteco.
+        </p>
+        <br>
+        <div id="shoppotienzalink"><a href="../shop/index.html"><h2>VISITA LO SHOP PER ACQUISTARE LA TUA PERSONALE DOSE DI POTIENZA!</h2></div></a></div>
+      </div>
+    </main>
+    <!-- Footer (Barra in basso alla pagina) -->
     <footer>
-      <img src="/img/favicon.ico" alt="asdfasdf" />
+      <!-- All'interno del footer, ci sono il paragrafo con il testo e le due immagini -->
+      <img src="../img/favicon.ico" alt="IL SOMMO" />
       <p>
         Copyright 2021 @LA SUA SOMMITÀ IN PERSONA - Massimiliano Di Paola (IL
         SOMMO), Alessandro Manciucca, Sergio Carmine.
       </p>
-      <img src="/img/favicon.ico" alt="asdfasdf" />
+      <img src="../img/favicon.ico" alt="IL SOMMO" />
     </footer>
+    <!-- Questa parte serve a riprodurre la musica di sottofondo -->
     <div id="player">
-      <audio autoplay hidden>
-       <source src="/aud/holymusic.webm" type="audio/webm">
-                  If you're reading this, audio isn't supported. 
+      <audio autoplay hidden loop>
+        <source src="../aud/sephiroththeme.mp3" type="audio/webm">
+          Il tuo browser non supporta la riproduzione di audio.
       </audio>
-</body>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <!-- Collega il css -->
+    <link rel="stylesheet" href="../../styles.css">
+    <!-- Iposta l'icona della pagina -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <!-- Dai un titolo alla pagina -->
+    <title>Contatta - IL SOMMO</title> 
+  </head>
+  <body>
+    <!-- La barra in alto al sito è contenuta in un tag header -->
+    <header id="navbar">
+      <!-- L'header è a sua volta divisio in due div: una per il logo a sinistra e una per i link a destra -->
+      <div id="titlediv">
+        <h1>IL SOMMO</h1>
+      </div>
+      <div id="navlinksdiv">
+        <!-- Per i link di navigazione usiamo una ul (unordered list) che poi rendiamo orizzontale nel css -->
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../potienza/index.html">Potienza™</a></li>
+          <li><a href="../../shop/index.html">Shop</a></li>
+          <li><a href="../../contatta/index.html" class="underline">Contatta</a></li>
+        </ul>
+      </div>
+    </header>
+  <!-- Parte principale della pagina -->
+    <main>
+      <!-- Tutto il testo presente nella pagina è contenuto in una div -->
+      <div id="textdiv">
+        <!-- Ogni titolo è racchiuso da una div di cui abbiamo modificato il colore di sfondo dal css. Questo serve a fare il rettangolo intorno. -->
+        <div>
+          <h1>Informazioni sull'ordine</h1>
+        </div>
+        <p>
+          Per portare a termine questo ordine correttamente, ci servono alcune informazioni su di te. Rispondi a queste domande sinceramente, altrimenti ti aspettano le modalità di distruzione di massa delineate in precedenza sulla pagina della <a href="../../potienza/index.html">Potienza™</a>.
+        <br><br>
+          Carrello: 1x Super Potienza™ - 179.99€
+        </p>
+        <!-- Tutte le domande sono delimitate da una div, utile per centrarle -->
+        <div id="container">
+          <!-- Ogni domanda è all'interno di una div che utliizzimao per fare il rettangolo -->
+          <div class="domandecard">
+            <!-- All'interno di ognuna card c'è un label (il testo della domanda), e un input (dove si inserisce il testo) -->
+            <label for="fname">Quanti gatti hai avuto in vita tua?</label>
+            <!-- L'attributo placeholder definisce il testo che è presente nel textbox prima che l'utente ci scriva -->
+            <input type="text" placeholder="Vogliamo il valore esatto"><br>
+          </div>
+          <div class="domandecard">
+            <label for="lname">Se le banane sono gialle di che colore è l’Australopiteco?</label>
+            <input type="text" placeholder="Scusa ma che scimmie hai">
+          </div>
+          <div class="domandecard">
+            <label for="lname">Sergio ha 14 anni...calcola l’età del Sommo</label>
+            <input type="text" placeholder="Un aiutino: IL SOMMO ha creato l'universo...">
+          </div>
+          <div class="domandecard">
+            <label for="lname">Awmando ha 12 litri di succo di ghiaccio. Da tutti i litri all’Australopiteco...quanto è lungo l’Equatore?</label>
+            <input type="text" placeholder="In millimetri per criceti al giorno">
+          </div>
+          <div class="domandecard">
+            <label for="lname">Indirizzo di spedizione:</label>
+            <input type="text" value="Inutile. IL SOMMO sa già dove vivi." readonly>
+          </div>
+          <!-- Il pulsante in basso alla pagina è all'interno di una div rossa -->
+          <div id="shoppotienzalink">
+            <a href="../orderpages/superpotienza.html"><h2>PROCEDI CON L'ORDINE</h2></a>
+          </div>
+        </div>
+      <div>
+    </div>
+    </main>
+    <!-- Footer (Barra in basso alla pagina) -->
+    <footer>
+      <!-- All'interno del footer, ci sono il paragrafo con il testo e le due immagini -->
+      <img src="../../img/favicon.ico" alt="IL SOMMO" />
+      <p>
+        Copyright 2021 @LA SUA SOMMITÀ IN PERSONA - Massimiliano Di Paola (IL
+        SOMMO), Alessandro Manciucca, Sergio Carmine.
+      </p>
+      <img src="../../img/favicon.ico" alt="IL SOMMO" />
+    </footer>
+    <!-- Questa parte serve a riprodurre la musica di sottofondo -->
+    <div id="player">
+      <audio autoplay hidden loop>
+        <source src="../../aud/chivuolesseremilionario.webm" type="audio/webm">
+          Il tuo browser non supporta la riproduzione di audio.
+      </audio>
+    </div>
+  </body>
+</html>

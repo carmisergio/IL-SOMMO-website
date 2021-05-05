@@ -1,78 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    
+  <head>
+    <!-- Collega il css -->
+    <link rel="stylesheet" href="../styles.css" />
+    <!-- Iposta l'icona della pagina -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <!-- Dai un titolo alla pagina -->
     <title>Contatta - IL SOMMO</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- La barra in alto al sito è contenuta in un tag header -->
     <header id="navbar">
-        <div id="titlediv">
-          <h1>IL SOMMO</h1>
+      <!-- L'header è a sua volta divisio in due div: una per il logo a sinistra e una per i link a destra -->
+      <div id="titlediv">
+        <h1>IL SOMMO</h1>
+      </div>
+      <div id="navlinksdiv">
+        <!-- Per i link di navigazione usiamo una ul (unordered list) che poi rendiamo orizzontale nel css -->
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../potienza/index.html">Potienza™</a></li>
+          <li><a href="../shop/index.html">Shop</a></li>
+          <li><a href="../contatta/index.html" class="underline">Contatta</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Parte principale della pagina -->
+    <main>
+      <!-- Tutto il testo presente nella pagina è contenuto in una div -->
+      <div id="textdiv">
+        <!-- Ogni titolo è racchiuso da una div di cui abbiamo modificato il colore di sfondo dal css. Questo serve a fare il rettangolo intorno. -->
+        <div>
+          <h1>Come faccio a contattare IL SOMMO?</h1>
         </div>
-        <div id="navlinksdiv">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/potienza/">Potienza™</a></li>
-            <li><a href="/shop/">Shop</a></li>
-            <li><a href="/contatta/" class="underline">Contatta</a></li>
+        <p>
+        Tu ti aspetti che ti daremo tutte le informazioni necessarie a contattare <b>IL SOMMO</b>, ma questo non succederà. Infatti, non è necessario contattare <b>IL SOMMO</b>: egli è sermpre con tutti noi, in tutte le cose dell'universo. Nell'aria, nell'acqua (persino quella della fognatura), in tutti gli animali...
+        </p>
+        <div>
+          <h1>IL SOMMO ti guarda</h1>
+        </div>
+        <p>
+        Il sommo ti guarda. Sempre. Eh no, non è per niente spaventosa questa cosa: lui usa le informazioni su di te che raccoglie in ogni. momento. della. tua. vita per proporti annunci pubblicitari personalizzati. Ah, e li fornirà anche alla polizia in caso tu faccia qualcosa di non proprio aderente alla legge.
+        </p>
+        <div>
+          <h1>Scherzone</h1>
+        </div>
+        <p>
+        SCHERZONE!!! Ci sei cascato eh?? Tutto quello che ti abbiamo appena detto è falso, forse...
+        <br>
+        Comunque, ecco tutte le inforamzioni necessarie a contattare il sommo (oraio lavorativo dalle 23:00 alle 05:00):
+          <!-- Usiamo una ul per la lista dei contatti -->
+          <ul id="contattilist" style="list-style-type: none;">
+            <li><p>Numero di telefono: +66 666 6666666</p></li>
+            <li><p>Mail: itsmeilsommo@lasuasommita.sm</p></li>
+            <li><p>Indirizzo: quello lo dovrai scoprire da solo ha ha ha</p></li>
           </ul>
-        </div>
-      </header>
-    
-      <!-- Main page -->
-      <main>
-        <!-- <div id="imgdiv">
-          <img src="/img/nevergonna.png" alt="UN'IMMAGINE DEL SOMMO">
-        </div> -->
-        <div id="textdiv">
-          <div>
-            <h1>Come faccio a contattare IL SOMMO?</h1>
-          </div>
-          <p>
-            Tu ti aspetti che ti daremo tutte le informazioni necessarie a contattare <b>IL SOMMO</b>, ma questo non succederà. Infatti, non è necessario contattare <b>IL SOMMO</b>: egli è sermpre con tutti noi, in tutte le cose dell'universo. Nell'aria, nell'acqua (persino quella della fognatura), in tutti gli animali...
-          </p>
-          <div>
-            <h1>IL SOMMO ti guarda</h1>
-          </div>
-          <p>
-            Il sommo ti guarda. Sempre. Eh no, non è per niente spaventosa questa cosa: lui usa le informazioni su di te che raccoglie in ogni. momento. della. tua. vita per proporti annunci pubblicitari personalizzati. Ah, e li fornirà anche alla polizia in caso tu faccia qualcosa di non proprio aderente alla legge.
-          </p>
-          <div>
-            <h1>Scherzone</h1>
-          </div>
-          <p>
-            SCHERZONE!!! Ci sei cascato eh?? Tutto quello che ti abbiamo appena detto è falso, forse...
-            <br>
-            Comunque, ecco tutte le inforamzioni necessarie a contattare il sommo (oraio lavorativo dalle 23:00 alle 05:00):
-            <ul id="contattilist" style="list-style-type: none;">
-              <li><p>Numero di telefono: +66 666 6666666</p></li>
-              <li><p>Mail: itsmeilsommo@lasuasommita.sm</p></li>
-              <li><p>Indirizzo: quello lo dovrai scoprire da solo ha ha ha</p></li>
-            </ul>
-          </p>
-          
-          <div>
-        </div>
-      </main>
-
-      <!-- Footer -->
+        </p>
+      </div>
+    </main>
+    <!-- Footer (Barra in basso alla pagina) -->
     <footer>
-      <img src="/img/favicon.ico" alt="asdfasdf" />
+      <!-- All'interno del footer, ci sono il paragrafo con il testo e le due immagini -->
+      <img src="../img/favicon.ico" alt="IL SOMMO" />
       <p>
         Copyright 2021 @LA SUA SOMMITÀ IN PERSONA - Massimiliano Di Paola (IL
         SOMMO), Alessandro Manciucca, Sergio Carmine.
       </p>
-      <img src="/img/favicon.ico" alt="asdfasdf" />
+      <img src="../img/favicon.ico" alt="IL SOMMO" />
     </footer>
+    <!-- Questa parte serve a riprodurre la musica di sottofondo -->
     <div id="player">
-      <audio autoplay hidden>
-       <source src="/aud/sephiroththeme.mp3" type="audio/webm">
-                  If you're reading this, audio isn't supported. 
+      <audio autoplay hidden loop>
+        <source src="../aud/holymusic.mp3" type="audio/mp3">
+          Il tuo browser non supporta la riproduzione di audio.
       </audio>
-</body>
+    </div>
+  </body>
 </html>

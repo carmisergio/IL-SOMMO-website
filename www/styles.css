@@ -1,10 +1,10 @@
 @font-face {
   font-family: "KarmaFuture";
-  src: url(/font/KarmaFuture.ttf) format("truetype");
+  src: url(./font/KarmaFuture.ttf) format("truetype");
 }
 @font-face {
   font-family: "SommoFont";
-  src: url(/font/VCR_OSD_MONO_1.001.ttf) format("truetype");
+  src: url(./font/VCR_OSD_MONO_1.001.ttf) format("truetype");
 }
 * {
   margin: 0;
@@ -237,12 +237,59 @@ footer img {
   font-size: 20px;
 }
 
-/* #shoppotienzalink a {
+.domandecard label {
   font-family: SommoFont;
-  padding: 20px;
-  font-size: ;
-} */
-/* main {
-  max-width: 80rem;
-  margin: auto;
-} */
+  color: white;
+  font-size: 20px !important;
+  display: block;
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  line-height: 30px;
+}
+
+.domandecard input {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  background-color: #c10000;
+  color: white;
+  font-family: SommoFont;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  border: none !important;
+}
+
+.domandecard input:focus {
+  outline-width: 0;
+  background-color: #860000;
+}
+
+#container {
+  width: 100%; /* Can be in percentage also. */
+  background-color: unset !important;
+  height: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative;
+  text-align: center;
+}
+
+.domandecard {
+  margin: 40px !important;
+  padding: 40px;
+  width: 700px;
+}
+
+::placeholder {
+  color: rgb(216, 215, 215);
+}
+
+#australpiteco {
+  height: 400px !important;
+}
+
+#ordertitle {
+  margin-left: 0px !important;
+}

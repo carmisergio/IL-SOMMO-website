@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="it">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
-
+    <!-- Collega il css -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Iposta l'icona della pagina -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <!-- Dai un titolo alla pagina -->
     <title>Home - IL SOMMO</title>
   </head>
   <body>
-    <!-- Navigation Bar -->
+    <!-- La barra in alto al sito è contenuta in un tag header -->
     <header id="navbar">
+      <!-- L'header è a sua volta divisio in due div: una per il logo a sinistra e una per i link a destra -->
       <div id="titlediv">
         <h1>IL SOMMO</h1>
       </div>
       <div id="navlinksdiv">
+        <!-- Per i link di navigazione usiamo una ul (unordered list) che poi rendiamo orizzontale nel css -->
         <ul>
-          <li><a href="/" class="underline">Home</a></li>
-          <li><a href="/potienza/">Potienza™</a></li>
-          <li><a href="/shop/">Shop</a></li>
-          <li><a href="/contatta/">Contatta</a></li>
+          <li><a href="./index.html" class="underline">Home</a></li>
+          <li><a href="./potienza/index.html">Potienza™</a></li>
+          <li><a href="./shop/index.html">Shop</a></li>
+          <li><a href="./contatta/index.html">Contatta</a></li>
         </ul>
       </div>
     </header>
-
-    <!-- Main page -->
+    <!-- Parte principale della pagina -->
     <main>
+      <!-- L'immagine è contenuta in una div -->
       <div id="imgdiv">
-        <img src="/img/nevergonna.png" alt="UN'IMMAGINE DEL SOMMO" />
+        <img src="./img/nevergonna.png" alt="UN'IMMAGINE DEL SOMMO" />
       </div>
+      <!-- Tutto il testo presente nella pagina è contenuto in una div -->
       <div id="textdiv">
+        <!-- Ogni titolo è racchiuso da una div di cui abbiamo modificato il colore di sfondo dal css. Questo serve a fare il rettangolo intorno. -->
         <div>
           <h1>Chi è IL SOMMO?</h1>
         </div>
+        <!-- Utilizziamo il tag b per rendere IL SOMMO in grassetto, e un a per i link alla Potienza -->
         <p>
           <b>IL SOMMO</b> è un essere esistito sin dall’inizio dell’universo. Le
           sue origini beh….non si conoscono, esiste e basta non fatevi domande!
           Si dice anche che <b>IL SOMMO</b> abbia infinita
-          <a href="/potienza/">Potienza™</a>.
+          <a href="./potienza/index.html">Potienza™</a>.
         </p>
-
         <div>
           <h1>IL SOMMO è Vita</h1>
         </div>
@@ -47,8 +52,7 @@
           bella dell’universo e se qualcuno prova sentimenti d’odio verrà
           fulminato subito. Ovviamente tutti testi sacri di ogni religione sono
           falsi credetemi! (Se lo fate vi do un biscotto) Inoltre
-          <b>IL SOMMO</b> dispone di molte prove e una tra queste è qui (sul qui
-          ci sarà il tiramisù).
+          <b>IL SOMMO</b> dispone di molte prove e una tra queste è qui.
           <a href="https://it.wikipedia.org/wiki/Tiramis%C3%B9">Questo link</a>
           è la prova che queste cose sono state create <b>DAL SOMMO...</b>
           <br /><br />
@@ -57,24 +61,22 @@
         </p>
       </div>
     </main>
-
-    <br /><br />
-
-    <!-- Footer -->
+    </br></br>
+    <!-- Footer (Barra in basso alla pagina) -->
     <footer>
-      <img src="/img/favicon.ico" alt="asdfasdf" />
+      <!-- All'interno del footer, ci sono il paragrafo con il testo e le due immagini -->
+      <img src="./img/favicon.ico" alt="IL SOMMO" />
       <p>
         Copyright 2021 @LA SUA SOMMITÀ IN PERSONA - Massimiliano Di Paola (IL
         SOMMO), Alessandro Manciucca, Sergio Carmine.
       </p>
-      <img src="/img/favicon.ico" alt="asdfasdf" />
+      <img src="./img/favicon.ico" alt="IL SOMMO" />
     </footer>
-
-    <!-- The Background music player -->
+    <!-- Questa parte serve a riprodurre la musica di sottofondo -->
     <div id="player">
       <audio autoplay hidden loop>
-        <source src="/aud/elevatormusicloop.mp3" type="audio/mp3" />
-        If you're reading this, audio isn't supported.
+        <source src="./aud/elevatormusicloop.mp3" type="audio/webm">
+          Il tuo browser non supporta la riproduzione di audio.
       </audio>
     </div>
   </body>
