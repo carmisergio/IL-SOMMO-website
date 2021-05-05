@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <!-- Collega il css -->
+    <link rel="stylesheet" href="../../styles.css" />
+    <!-- Iposta l'icona della pagina -->
+    <link
+      rel="shortcut icon"
+      href="../../img/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Dai un titolo alla pagina -->
+    <title>Home - IL SOMMO</title>
+  </head>
+  <body>
+    <!-- La barra in alto al sito è contenuta in un tag header -->
+    <header id="navbar">
+      <!-- L'header è a sua volta divisio in due div: una per il logo a sinistra e una per i link a destra -->
+      <div id="titlediv">
+        <h1>IL SOMMO</h1>
+      </div>
+      <div id="navlinksdiv">
+        <!-- Per i link di navigazione usiamo una ul (unordered list) che poi rendiamo orizzontale nel css -->
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../potienza/index.html">Potienza™</a></li>
+          <li><a href="../../shop/index.html" class="underline">Shop</a></li>
+          <li><a href="../../contatta/index.html">Contatta</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Parte principale della pagina -->
+    <main>
+      <!-- L'immagine è contenuta in una div -->
+      <div id="imgdiv">
+        <img
+          id="australpiteco"
+          src="../../img/australopiteco.gif"
+          alt="UN'IMMAGINE DEL SOMMO"
+        />
+      </div>
+      <!-- Tutto il testo presente nella pagina è contenuto in una div -->
+      <div id="textdiv">
+        <div style="height: 200px !important"></div>
+        <!-- Ogni titolo è racchiuso da una div di cui abbiamo modificato il colore di sfondo dal css. Questo serve a fare il rettangolo intorno. -->
+        <div id="ordertitle">
+          <h1>Grazie per l'acquisto</h1>
+        </div>
+        <p>
+          Grazie per aver acquistato la "Potienza™".
+          <br />
+          Il tuo ordine arriverà a data da destinarsi.
+          <br />
+          Purtroppo IL SOMMO non ha tempo da perdere con te! Intanto
+          puoi imparare ad usare la Potienza™ su
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">questo</a> link.
+        </p>
+      </div>
+    </main>
+    <!-- Footer (Barra in basso alla pagina) -->
+    <!-- All'interno del footer, ci sono il paragrafo con il testo e le due immagini -->
+    <!-- <footer>
+      <img src="../../img/favicon.ico" alt="IL SOMMO" />
+      <p>
+        Copyright 2021 @LA SUA SOMMITÀ IN PERSONA - Massimiliano Di Paola (IL
+        SOMMO), Alessandro Manciucca, Sergio Carmine.
+      </p>
+      <img src="../../img/favicon.ico" alt="IL SOMMO" />
+    </footer> -->
+    <!-- Questa parte serve a riprodurre la musica di sottofondo -->
+    <div id="player">
+      <audio autoplay hidden loop>
+        <source src="../../aud/2001aspaceodissey.mp3" type="audio/webm" />
+        Il tuo browser non supporta la riproduzione di audio.
+      </audio>
+    </div>
+  </body>
+</html>
